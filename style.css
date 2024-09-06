@@ -1,0 +1,296 @@
+*{
+    margin:  0;
+    padding: 0;
+   font-family: EngraversGothic BT;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('background1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: floralwhite;
+  font-family: EngraversGothic BT;
+
+}
+
+#header{
+   font-family: EngraversGothic BT;
+   font-size: 50px;
+   padding: 10px;
+}
+/* Navigation bar */
+nav {
+  background-color: rgb(65 224 255 / 16%);
+  color: floralwhite;
+  padding: 20px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  floralwhite;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #d1fffe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#words{
+  padding: 20px;
+  font-family: EngraversGothic BT;
+}
+#container{
+  font-family: EngraversGothic BT;
+  display: flex;
+  align-items: center;
+  color: floralwhite;
+  background-color: rgb(140 236 255 / 20%);
+  float: left;
+  font-size: 20px;
+  margin: 90px;
+  margin-left: 300px;
+  padding-right: 30px;
+
+}
+#container img{
+    filter: grayscale(90%);
+    opacity: 0.9;
+    transition: all 0.3s;
+}
+#container img:hover{
+  opacity: 1;
+  filter: none;
+  cursor: pointer;
+}
+/* Heading */
+h1, h2, h3 {
+  color: floralwhite;
+  font-weight: bold;
+  font-family: EngraversGothic BT;
+}
+
+/* Links */
+a {
+  color: #006699;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003366;
+}
+
+#services{
+  display: flex;
+  align-items: center;
+  color: floralwhite;
+  background-color: rgb(123 235 255 / 22%);
+  font-size: 20px;
+  margin-right: 65%;
+  float: left;
+  margin: 35px;
+  margin-left: 300px;
+  padding-right: 30px;
+}
+#list{
+  display: flex;
+  align-items: center;
+  color: floralwhite;
+  background-color: rgb(55 137 153 / 25%);
+  font-size: 20px;
+  margin-right: 65%;
+  margin: 90px;
+  margin-left: 300px;
+  padding-right: 30px;
+  position: relative;
+  bottom: 1px;
+}
+.column{
+  position: relative;
+
+  left: 50px;
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 5px;
+}
+.column img{
+  width: 30%;
+  height: 30%;
+  margin-top: 3px;
+  opacity: 0.9;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+
+}
+.column img:hover{
+  opacity: 1;
+  filter: none;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.column1{
+  position: relative;
+
+  left: 250px;
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 5px;
+}
+.column1 img{
+  width: 30%;
+  height: 30%;
+  margin-top: 3px;
+  opacity: 0.9;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+
+}
+.column1 img:hover{
+  opacity: 1;
+  filter: none;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+  
+@media screen and (max-width: 800px) {
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+}
+
+
+#credit{
+  float: right;
+}
+.image-container {
+  position: relative;
+}
+.image-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.image-container:hover {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+
+
+.tooltip:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.tooltip:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #000 transparent;
+}
+hr {
+  border: none;
+  border-top: 2px skyblue;
+  margin: 20px 0;
+}
+
+
+#contactus{
+  display: flex;
+  align-items: center;
+  background-color: rgb(125 234 255 / 20%);
+  color: floralwhite;
+  font-size: 20px;
+  margin: 90px;
+  margin-left: 300px;
+  padding-right: 30px;
+}
+#reviews{
+  font-size: 30px;
+}
+.slider {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  width: 2000px;
+  animation: slide 10s infinite;
+}
+
+.slides img {
+  width: 500px;
+  height: 300px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-500px);
+  }
+  55% {
+    transform: translateX(-500px);
+  }
+  60% {
+    transform: translateX(-1000px);
+  }
+  85% {
+    transform: translateX(-1000px);
+  }
+  90% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(-1500px);
+  }
+}

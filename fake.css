@@ -1,0 +1,64 @@
+/* Header styling */
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
