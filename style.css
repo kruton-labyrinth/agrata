@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'Engravers Gothic';
+    src: url('engravers-gothic-bt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Engravers Gothic', sans-serif;
+}
+
 *{
     margin:  0;
     padding: 0;
-   font-family: engravers-gothic-bt;
+    font-family: 'Engravers Gothic';
+    src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 ul{
   list-style-type: none;
@@ -14,12 +26,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: floralwhite;
-  font-family: engravers-gothic-bt;
+  font-family: 'Engravers Gothic';
+  src: url('engravers-gothic-bt.ttf') format('truetype');
 
 }
 
 #header{
-   font-family: engravers-gothic-bt;
+   font-family: 'Engravers Gothic';
+   src: url('engravers-gothic-bt.ttf') format('truetype');
    font-size: 50px;
    padding: 10px;
 }
@@ -57,10 +71,12 @@ nav a:hover {
 
 #words{
   padding: 20px;
-  font-family: engravers-gothic-bt;
+  font-family: 'Engravers Gothic';
+  src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 #container{
-  font-family: engravers-gothic-bt;
+  font-family: 'Engravers Gothic';
+  src: url('engravers-gothic-bt.ttf') format('truetype');
   display: flex;
   align-items: center;
   color: floralwhite;
@@ -86,7 +102,8 @@ nav a:hover {
 h1, h2, h3 {
   color: floralwhite;
   font-weight: bold;
-  font-family: engravers-gothic-bt;
+  font-family: 'Engravers Gothic';
+  src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 
 /* Links */
