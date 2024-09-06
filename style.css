@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'Engravers Gothic';
+    font-family: 'engravers-gothic-bt.ttf';
     src: url('engravers-gothic-bt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'Engravers Gothic', sans-serif;
+    font-family: 'engravers-gothic-bt.ttf', sans-serif;
 }
 
 *{
     margin:  0;
     padding: 0;
-    font-family: 'Engravers Gothic';
+    font-family: 'engravers-gothic-bt.ttf';
     src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 ul{
@@ -26,13 +26,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: floralwhite;
-  font-family: 'Engravers Gothic';
+  font-family: 'engravers-gothic-bt.ttf';
   src: url('engravers-gothic-bt.ttf') format('truetype');
 
 }
 
 #header{
-   font-family: 'Engravers Gothic';
+   font-family: 'engravers-gothic-bt.ttf';
    src: url('engravers-gothic-bt.ttf') format('truetype');
    font-size: 50px;
    padding: 10px;
@@ -71,11 +71,11 @@ nav a:hover {
 
 #words{
   padding: 20px;
-  font-family: 'Engravers Gothic';
+  font-family: 'engravers-gothic-bt.ttf';
   src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 #container{
-  font-family: 'Engravers Gothic';
+  font-family: 'engravers-gothic-bt.ttf';
   src: url('engravers-gothic-bt.ttf') format('truetype');
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@ nav a:hover {
 h1, h2, h3 {
   color: floralwhite;
   font-weight: bold;
-  font-family: 'Engravers Gothic';
+  font-family: 'engravers-gothic-bt.ttf';
   src: url('engravers-gothic-bt.ttf') format('truetype');
 }
 
